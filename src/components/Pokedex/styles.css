@@ -1,0 +1,83 @@
+.container {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 1rem;
+}
+
+.container header {
+  color: #3B5360;
+
+  font-family: Roboto;
+
+  font-size: 4rem;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.cardsContainer {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.cardsContainer ul {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+}
+
+.cardsContainer ul li {
+  padding: 1rem;
+}
+
+.score {
+  position: relative;
+  left: 40rem;
+  font-size: 3rem;
+  font-family: Roboto;
+
+  line-height: 4rem;
+
+}
+
+.drawCardsButton {
+  background: #3B5360;;
+  color: white;
+
+  border: 0;
+  border-radius: 10px;
+
+  font-size: 3rem;
+  padding: 1rem;
+  margin-top: 3rem;
+
+  width: 30%;
+
+  transition: filter 0.3s;
+}
+
+.drawCardsButton:hover {
+  filter: brightness(0.85);
+}
+
+.winner {
+  font-size: 3rem;
+  font-family: Roboto;
+
+  line-height: 4rem;
+  color: green;
+}
+
+.loser {
+  font-size: 3rem;
+  font-family: Roboto;
+
+  line-height: 4rem;
+  color: red;
+}

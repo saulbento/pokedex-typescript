@@ -1,0 +1,42 @@
+.pokecardContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  width: 22rem;
+  height: 22rem;
+
+  background: #8B5E83;
+  padding: 1rem;
+
+  border-radius: 1rem;
+
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.pokecardContainer h1 {
+  font-family: Roboto;
+
+  color: #fff;
+}
+
+.pokecardContainer img {
+  flex: 1;
+}
+
+.pokecardContainer span {
+  font-family: Roboto;
+
+  font-size: 1.25rem;
+  padding: 0.5rem;
+
+  color: #fff;
+}
+
+.pokecardContainer strong {
+  font-family: Roboto;
+
+  font-size: 1.5rem;
+
+  color: #fff;
+}
